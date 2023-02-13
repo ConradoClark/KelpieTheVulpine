@@ -7,6 +7,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public FoxFormPlayer FoxForm;
+    public GhostFormPlayer GhostForm;
     public PlayerForms CurrentForm;
 
     [Serializable]
