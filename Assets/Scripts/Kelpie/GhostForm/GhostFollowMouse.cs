@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Licht.Impl.Orchestration;
 using Licht.Unity.Objects;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -33,15 +32,17 @@ public class GhostFollowMouse : BaseGameObject
     {
         while (ComponentEnabled)
         {
-            while (MouseDelta.action.ReadValue<Vector2>() == Vector2.zero)
+            while (MouseDelta.action.ReadValue<Vector2>() == Vector2.zero
+                   || _ghostForm.MoveController.IsMoving)
             {
                 yield return TimeYields.WaitOneFrameX;
             }
 
             _movedMouseRecently = true;
             yield return TimeYields.WaitSeconds(GameTimer, 2,
+                breakCondition: () => _ghostForm.MoveController.IsMoving,
                 resetCondition: () => MouseDelta.action.ReadValue<Vector2>() != Vector2.zero
-                || !_ghostForm.MoveController.IsMoving && CheckDistanceToMousePositionGreaterThan(0.25f)) ;
+                || !_ghostForm.MoveController.IsMoving && CheckDistanceToMousePositionGreaterThan(0.05f)) ;
             _movedMouseRecently = false;
         }
     }
