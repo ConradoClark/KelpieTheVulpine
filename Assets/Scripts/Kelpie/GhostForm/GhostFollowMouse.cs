@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using Licht.Impl.Orchestration;
+using Licht.Unity.CharacterControllers;
 using Licht.Unity.Objects;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class GhostFollowMouse : BaseGameObject
+public class GhostFollowMouse : LichtMovementController
 {
     private GhostFormPlayer _ghostForm;
     public InputActionReference MousePosition;
@@ -54,11 +55,18 @@ public class GhostFollowMouse : BaseGameObject
         return distance > minDistance;
     }
 
+    public Vector2 GetDirectionFromMouse()
+    {
+        var mousePos = _gameCamera.ScreenToWorldPoint(MousePosition.action.ReadValue<Vector2>());
+        var distance = (Vector2)(mousePos - _ghostForm.PhysicsObject.transform.position);
+        return  distance.normalized;
+    }
+
     private IEnumerable<IEnumerable<Action>> HandleFollowMouse()
     {
         while(ComponentEnabled)
         {
-            if (!_ghostForm.MoveController.IsMoving && _movedMouseRecently)
+            if (!_ghostForm.MoveController.IsMoving && _movedMouseRecently && !IsBlocked)
             {
                 var mousePos = _gameCamera.ScreenToWorldPoint(MousePosition.action.ReadValue<Vector2>());
                 var distance = (Vector2)(mousePos - _ghostForm.PhysicsObject.transform.position);
