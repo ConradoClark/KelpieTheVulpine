@@ -22,6 +22,7 @@ public class BounceOnEnemies : BaseGameObject
     public class OnBounceEventHandler
     {
         public Collider2D Collider;
+        public Bounceable Target;
     }
 
     private IEventPublisher<AbilityEvents, OnBounceEventHandler> _eventPublisher;
@@ -45,6 +46,7 @@ public class BounceOnEnemies : BaseGameObject
     {
         while (ComponentEnabled)
         {
+            Bounceable target = null;
             CollisionResult trigger = default;
             var conditions = _player.IsFox
                              && !_player.FoxForm.JumpController.IsJumping
@@ -53,12 +55,14 @@ public class BounceOnEnemies : BaseGameObject
                              && (trigger = _player.FoxForm.GroundCollider.Triggers.FirstOrDefault(t =>
                                  LayerToCheck.Contains(t.Collider.gameObject.layer))).TriggeredHit
                              && _physics.TryGetPhysicsObjectByCollider(trigger.Collider, out var physicsObject)
-                             && physicsObject.TryGetCustomObject<Bounceable>(out _);
+                             && physicsObject.TryGetCustomObject(out target)
+                             && target.enabled;
             if (conditions)
             {
                 _eventPublisher.PublishEvent(AbilityEvents.OnBounce, new OnBounceEventHandler
                 {
-                    Collider = trigger.Collider
+                    Collider = trigger.Collider,
+                    Target = target
                 });
                 yield return _player.FoxForm.JumpController.ExecuteJump(customParams: BounceParams).AsCoroutine();
             }

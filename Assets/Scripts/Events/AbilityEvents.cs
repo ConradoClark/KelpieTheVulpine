@@ -7,5 +7,6 @@ using System.Threading.Tasks;
 [Serializable]
 public enum AbilityEvents
 {
-    OnBounce
+    OnBounce,
+    OnDash
 }

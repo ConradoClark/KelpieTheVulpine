@@ -6,6 +6,7 @@ using Licht.Interfaces.Events;
 using Licht.Unity.Effects;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
+using Licht.Unity.Physics.Forces;
 using Licht.Unity.Pooling;
 using UnityEngine;
 
@@ -145,6 +146,6 @@ public class KillableFox : Killable
             .UsingTimer(GameTimer)
             .Build();
 
-        yield return xKnockBack.Combine(yKnockBack);
+       yield return xKnockBack.Combine(yKnockBack);
     }
 }
