@@ -17,6 +17,7 @@ public class BounceOnEnemies : BaseGameObject
     public LichtPlatformerJumpController.CustomJumpParams BounceParams;
     public float MinJumpDelay;
     private Player _player;
+    private LichtPhysics _physics;
 
     public class OnBounceEventHandler
     {
@@ -30,6 +31,7 @@ public class BounceOnEnemies : BaseGameObject
         base.OnAwake();
         _player = SceneObject<Player>.Instance();
         _eventPublisher = this.RegisterAsEventPublisher<AbilityEvents, OnBounceEventHandler>();
+        _physics = this.GetLichtPhysics();
     }
 
     protected override void OnEnable()
@@ -49,7 +51,9 @@ public class BounceOnEnemies : BaseGameObject
                              && _player.FoxForm.PhysicsObject.GetPhysicsTrigger(_player.FoxForm.JumpController
                                  .GroundedTrigger)
                              && (trigger = _player.FoxForm.GroundCollider.Triggers.FirstOrDefault(t =>
-                                 LayerToCheck.Contains(t.Collider.gameObject.layer))).TriggeredHit;
+                                 LayerToCheck.Contains(t.Collider.gameObject.layer))).TriggeredHit
+                             && _physics.TryGetPhysicsObjectByCollider(trigger.Collider, out var physicsObject)
+                             && physicsObject.TryGetCustomObject<Bounceable>(out _);
             if (conditions)
             {
                 _eventPublisher.PublishEvent(AbilityEvents.OnBounce, new OnBounceEventHandler

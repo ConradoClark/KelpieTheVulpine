@@ -32,4 +32,9 @@ public class KelpieDeathLoop : BaseGameObject
             DefaultMachinery.AddBasicMachine(appear);
         }
     }
+
+    public void Hide()
+    {
+        gameObject.SetActive(false);
+    }
 }

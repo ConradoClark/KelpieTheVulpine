@@ -11,4 +11,5 @@ public class FoxFormPlayer : MonoBehaviour
     public LichtPlatformerJumpController JumpController;
     public Basic2DBoxCast GroundCollider;
     public LichtPhysicsObject PhysicsObject;
+    public SpriteRenderer MainSpriteRenderer;
 }

@@ -57,7 +57,7 @@ public class PoofKillable : Killable
             deactivated.Add(col);
         }
 
-        DefaultMachinery.AddBasicMachine(SlowDown());
+        //DefaultMachinery.AddBasicMachine(SlowDown());
 
         if (_poofPool.TryGetFromPool(out var effect))
         {

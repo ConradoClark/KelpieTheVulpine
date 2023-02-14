@@ -16,10 +16,10 @@ TagManager:
   - Enemy
   - Invisible
   - PlayerHurtBox
-  - 
-  - 
-  - 
-  - 
+  - PlayerDeadBody
+  - Effect
+  - BodyObstacle
+  - NonPlatformEnemy
   - 
   - 
   - 

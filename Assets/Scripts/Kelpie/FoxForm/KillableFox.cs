@@ -11,6 +11,7 @@ using UnityEngine;
 
 public class KillableFox : Killable
 {
+    public float InvincibilityTimeInSeconds;
     public Vector2 KnockBackSpeed;
     public float KnockBackTimeInSeconds;
     public AnimationCurve KnockBackXCurve;
@@ -24,6 +25,45 @@ public class KillableFox : Killable
     private bool _spawnSmoke;
     private PrefabPool _smokePool;
     private IEventPublisher<StateEvents> _eventPublisher;
+    private bool _isInvulnerable;
+
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        this.ObserveEvent(StateEvents.OnInvincibilityFrames, OnInvincibility);
+    }
+
+    private void OnInvincibility()
+    {
+        _isInvulnerable = true;
+        DefaultMachinery.AddBasicMachine(HandleInvincibilityFrames());
+    }
+
+    private IEnumerable<IEnumerable<Action>> HandleInvincibilityFrames()
+    {
+        DefaultMachinery.AddBasicMachine(Blink());
+        yield return TimeYields.WaitSeconds(GameTimer, InvincibilityTimeInSeconds);
+        _isInvulnerable = false;
+    }
+
+    private IEnumerable<IEnumerable<Action>> Blink()
+    {
+        while (_isInvulnerable)
+        {
+            yield return TimeYields.WaitMilliseconds(GameTimer, 100);
+            _fox.MainSpriteRenderer.enabled = false;
+            yield return TimeYields.WaitMilliseconds(GameTimer, 100);
+            _fox.MainSpriteRenderer.enabled = true;
+        }
+        _fox.MainSpriteRenderer.enabled = true;
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        this.StopObservingEvent(StateEvents.OnInvincibilityFrames, OnInvincibility);
+    }
+
     protected override void OnAwake()
     {
         base.OnAwake();
@@ -36,6 +76,11 @@ public class KillableFox : Killable
         _eventPublisher = this.RegisterAsEventPublisher<StateEvents>();
     }
 
+    protected override bool CanBeKilled()
+    {
+        return !_isInvulnerable;
+    }
+
     protected override IEnumerable<IEnumerable<Action>> OnDeathEffect()
     {
         DefaultMachinery.AddBasicMachine(_darkWorldController.GoToDarkWorld());
@@ -43,6 +88,10 @@ public class KillableFox : Killable
         _fox.JumpController.BlockMovement(this);
         yield return BounceKnockBack().AsCoroutine();
         _fox.gameObject.SetActive(false);
+
+        _fox.MoveController.UnblockMovement(this);
+        _fox.JumpController.UnblockMovement(this);
+
         _deathLoop.Show();
 
         _player.CurrentForm = Player.PlayerForms.Ghost;

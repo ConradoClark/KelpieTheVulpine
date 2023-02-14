@@ -57,6 +57,19 @@ public class DarkWorldController : BaseGameObject
         }
     }
 
+    public IEnumerable<IEnumerable<Action>> ExitFromDarkWorld()
+    {
+        IsInDarkWorld = false;
+
+        yield return new LerpBuilder(f => DarkWorldVolume.weight = f,
+                () => DarkWorldVolume.weight)
+            .SetTarget(0f)
+            .Over(2f)
+            .Easing(EasingYields.EasingFunction.QuadraticEaseInOut)
+            .UsingTimer(GameTimer)
+            .Build();
+    }
+
     private void SetVignettePositionToPlayer()
     {
         var center = (Vector2)_gameCamera.WorldToViewportPoint(_player.IsFox

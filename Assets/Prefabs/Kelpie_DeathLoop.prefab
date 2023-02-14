@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5877804064538089304}
   - component: {fileID: 5877804064538089307}
   - component: {fileID: 5877804064538089306}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Kelpie_DeathLoopSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 5877804064590409773}
   - component: {fileID: 5877804064590409763}
   - component: {fileID: 5877804064590409762}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DeathGlitch_42x61_0_Flipped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 5877804065019025489}
   - component: {fileID: 5877804065019025495}
   - component: {fileID: 5877804065019025494}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DeathGlitch_42x61_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5877804066118277721}
   - component: {fileID: 5877804066118277726}
-  m_Layer: 0
+  - component: {fileID: 5055940602682605821}
+  m_Layer: 11
   m_Name: Kelpie_DeathLoop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,3 +382,29 @@ MonoBehaviour:
   - {fileID: 5877804065019025495}
   - {fileID: 5877804064590409763}
   SpriteColor: {r: 1, g: 1, b: 1, a: 0.78431374}
+--- !u!61 &5055940602682605821
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877804066118277720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0054899603, y: 0.03293979}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.43270412, y: 0.590083}
+  m_EdgeRadius: 0

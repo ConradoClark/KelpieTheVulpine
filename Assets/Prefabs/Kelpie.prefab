@@ -1,5 +1,140 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &542127450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542127451}
+  - component: {fileID: 542127452}
+  m_Layer: 7
+  m_Name: RebirthFlash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &542127451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542127450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6107002364504011850}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &542127452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542127450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779b5a63d952de546a3d420f321a9a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 6107002364504011851}
+  FlashColor: {r: 1, g: 1, b: 1, a: 1}
+  FlashSpeed: 2
+--- !u!1 &1537531184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537531185}
+  - component: {fileID: 1537531187}
+  - component: {fileID: 1537531186}
+  m_Layer: 7
+  m_Name: CorpseCollision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1537531185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537531184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6107002364644883015}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1537531187
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537531184}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0094560385, y: -0.014968693}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.18083262, y: 0.14107668}
+  m_EdgeRadius: 0
+--- !u!114 &1537531186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537531184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1603891081, guid: 83d94a7502652014e8fb1a61a030c7a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collider: {fileID: 1537531187}
+  ShouldClamp: 0
+  ContactFilter:
+    useTriggers: 0
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 2048
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  HitCeilingIdentifier: {fileID: 0}
 --- !u!1 &6107002363187070941
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +358,7 @@ MonoBehaviour:
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 64
+      m_Bits: 8256
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
@@ -366,6 +501,7 @@ MonoBehaviour:
   PhysicsTriggers: []
   CollisionDetectors:
   - {fileID: 6107002365149211564}
+  - {fileID: 1537531186}
   AdditionalColliders: []
   CalculatedSpeed: {x: 0, y: 0}
 --- !u!114 &6107002363434571379
@@ -383,6 +519,9 @@ MonoBehaviour:
   PhysicsObject: {fileID: 6107002363434571380}
   MoveController: {fileID: 6107002363434571381}
   GhostMouseFollower: {fileID: 6107002363434571378}
+  BodyTrigger: {fileID: 1537531186}
+  RebirthEffect: {fileID: 11400000, guid: 222ebf9439fa79849bd5f468b5af1974, type: 2}
+  RebirthFlash: {fileID: 542127452}
 --- !u!114 &6107002363434571378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,7 +1017,7 @@ MonoBehaviour:
   Direction: {x: 0, y: -1}
   LayerMask:
     serializedVersion: 2
-    m_Bits: 320
+    m_Bits: 8512
   CheckNormals: 0
   NormalTarget: {x: 0, y: 0}
   IncreaseBySpeed: 0
@@ -914,7 +1053,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 542127451}
   m_Father: {fileID: 6107002365018892071}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -938,7 +1078,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: e1d502146b02322499f69ae8e29e8521, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1118,6 +1258,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6107002365149211565}
+  - {fileID: 1537531185}
   m_Father: {fileID: 6107002363434571382}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1238,6 +1379,7 @@ MonoBehaviour:
   JumpController: {fileID: 6107002363187070939}
   GroundCollider: {fileID: 6107002364499897651}
   PhysicsObject: {fileID: 6107002365018892056}
+  MainSpriteRenderer: {fileID: 6107002364504011851}
 --- !u!114 &6107002365018892069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,6 +1396,7 @@ MonoBehaviour:
   Actor: {fileID: 6107002365018892057}
   SceneObject: 1
   Killed: 0
+  InvincibilityTimeInSeconds: 0
   KnockBackSpeed: {x: 0.5, y: 1}
   KnockBackTimeInSeconds: 1.5
   KnockBackXCurve:
