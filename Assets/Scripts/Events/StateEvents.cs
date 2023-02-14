@@ -7,5 +7,9 @@ using System.Threading.Tasks;
 [Serializable]
 public enum StateEvents
 {
+    OnDeathAttempt,
     OnDeath,
+    OnRevive,
+    OnGhostForm,
+    OnFoxForm
 }

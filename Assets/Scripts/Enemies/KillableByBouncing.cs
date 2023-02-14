@@ -26,7 +26,7 @@ public class KillableByBouncing : BaseGameObject
     private void BouncedOn(BounceOnEnemies.OnBounceEventHandler obj)
     {
         if (obj.Collider != Collider) return;
-        _eventPublisher.PublishEvent(StateEvents.OnDeath, _killable);
+        _eventPublisher.PublishEvent(StateEvents.OnDeathAttempt, _killable);
     }
 
     protected override void OnDisable()
