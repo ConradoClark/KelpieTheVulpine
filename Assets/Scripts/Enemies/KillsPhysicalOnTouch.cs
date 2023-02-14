@@ -14,6 +14,7 @@ using UnityEngine;
 public class KillsPhysicalOnTouch : BaseGameObject
 {
     public LichtPhysicsCollisionDetector HitBox;
+    public Killable Killable;
     private LichtPhysics _physics;
     private IEventPublisher<StateEvents, Killable> _killEvent;
     protected override void OnAwake()
@@ -35,11 +36,12 @@ public class KillsPhysicalOnTouch : BaseGameObject
         {
             PhysicalEntity physicalEntity = null;
             var hit = HitBox.Triggers.FirstOrDefault(t => t.TriggeredHit
-                                                && _physics.TryGetPhysicsObjectByCollider(t.Collider,
-                                                    out var physicsObject)
-                                                && physicsObject.TryGetCustomObject(out physicalEntity));
+                                                                     && _physics.TryGetPhysicsObjectByCollider(t.Collider,
+                                                                         out var physicsObject)
+                                                                     && physicsObject.TryGetCustomObject(out physicalEntity));
 
-            if (hit.TriggeredHit && physicalEntity != null && physicalEntity.Killable != null)
+            if ((Killable == null || !Killable.Killed) && 
+                hit.TriggeredHit && physicalEntity != null && physicalEntity.Killable != null)
             {
                 _killEvent.PublishEvent(StateEvents.OnDeathAttempt, physicalEntity.Killable);
             }

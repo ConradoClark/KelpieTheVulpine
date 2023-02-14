@@ -76,6 +76,7 @@ public class FoxFormAnimator : BaseGameObject
 
     private void Update()
     {
+        Animator.speed = (float) GameTimer.Multiplier;
         if (FreezeDirection) return;
 
         SpriteRenderer.flipX = _player.MoveController.LatestDirection < 0;
