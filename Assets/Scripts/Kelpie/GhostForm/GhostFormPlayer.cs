@@ -20,6 +20,7 @@ public class GhostFormPlayer : BaseGameObject
     public LichtPhysicsCollisionDetector BodyTrigger;
     public ScriptPrefab RebirthEffect;
     public TintFlash RebirthFlash;
+    public float GhostFormDrainRate;
 
     private Gravity _gravity;
     private Player _player;
@@ -28,6 +29,7 @@ public class GhostFormPlayer : BaseGameObject
     private DarkWorldController _darkWorldController;
     private PrefabPool _rebirthPool;
     private SpinningLightRays _lightRays;
+    private GhostCounter _ghostCounter;
 
     protected override void OnAwake()
     {
@@ -38,6 +40,7 @@ public class GhostFormPlayer : BaseGameObject
         _darkWorldController = SceneObject<DarkWorldController>.Instance();
         _rebirthPool = SceneObject<EffectsManager>.Instance().GetEffect(RebirthEffect);
         _lightRays = SceneObject<SpinningLightRays>.Instance(true);
+        _ghostCounter = SceneObject<GhostCounter>.Instance(true);
     }
 
     protected override void OnEnable()
@@ -45,7 +48,18 @@ public class GhostFormPlayer : BaseGameObject
         base.OnEnable();
         DefaultMachinery.AddBasicMachine(DisableGravityForGhost());
         DefaultMachinery.AddBasicMachine(HandleBodyCollision());
+        DefaultMachinery.AddBasicMachine(DrainGhostCounter());
     }
+
+    private IEnumerable<IEnumerable<Action>> DrainGhostCounter()
+    {
+        while (ComponentEnabled)
+        {
+            _ghostCounter.Drain(GhostFormDrainRate);
+            yield return TimeYields.WaitMilliseconds(GameTimer, 20);
+        }
+    }
+
     private IEnumerable<Action> DisableGravityForGhost()
     {
         yield return TimeYields.WaitOneFrame;

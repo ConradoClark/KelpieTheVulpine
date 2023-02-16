@@ -39,7 +39,7 @@ public class BounceOnEnemies : BaseGameObject
     {
         base.OnEnable();
         BounceParams.MinJumpDelay = MinJumpDelay;
-        DefaultMachinery.AddBasicMachine(HandleBounce());
+        DefaultMachinery.AddBasicMachine(-1, HandleBounce());
     }
 
     private IEnumerable<IEnumerable<Action>> HandleBounce()

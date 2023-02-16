@@ -12,8 +12,9 @@ public class TintFlash : BaseGameObject
     public Color FlashColor;
     public float FlashSpeed;
     public int Repeat;
+    public bool BackToZero;
 
-    public IEnumerable<IEnumerable<Action>> Flash(bool disappear=false)
+    public IEnumerable<IEnumerable<Action>> Flash(bool disappear = false)
     {
         var original = SpriteRenderer.material.GetColor("_Tint");
         for (var i = 0; i < Repeat + 1; i++)
@@ -52,5 +53,6 @@ public class TintFlash : BaseGameObject
                 yield return back;
             }
         }
+        SpriteRenderer.material.SetColor("_Tint", BackToZero ? new Color(0, 0, 0, 0) : original);
     }
 }
