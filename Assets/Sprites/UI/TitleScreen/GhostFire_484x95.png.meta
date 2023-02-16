@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: aae47733e77bc2c4093ac182ade3b5cf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostFire_484x95_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e1d4a3fb1d9e44480a602f6d92abd8
+      internalID: 715679737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_1
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13b2ecae166dfb479934b65051a5b5e
+      internalID: 143493225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_2
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821b6c884cfba7f4e9e9d6d1aeba5620
+      internalID: -860624592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_3
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b0bfb02e65f0d4f9e12e1643468cc6
+      internalID: -733674858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_4
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b39053ff91ca749a1d9a4c3eae5a50
+      internalID: 823421416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_5
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ade1489dcb5741bcc12d89e26cae3
+      internalID: -1029286567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_6
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fb3e6032190a142bde21afd68cc0db
+      internalID: -1148322041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_7
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d612b13d0ffc92478c39d6af063ae86
+      internalID: -9544637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_8
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 570
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41903561a443aa499b6b18455b52878
+      internalID: -2052265578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28eafdd3c22fa184caee024baf2dc3c2
+      internalID: -2066802288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b1693def50149429d738fe747aab45
+      internalID: 1644231374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_11
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a6122ccffc2384dbb8029d54017c38
+      internalID: -1263610823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_12
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc1ff54e55cc140a9016ff97af9455
+      internalID: 1766638447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_13
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746de31d5dbad3943a41ecb1d00404b1
+      internalID: -364928932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_14
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b78e1e7a603c64b989ecf29fc9e694
+      internalID: -811801241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_15
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bee07fb722b8c94fa676408a43c0b45
+      internalID: -275367427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_16
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6defe80530c58404b99bcefc0d335d39
+      internalID: 82760042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_17
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 475
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5746ce5a99a6c004ea269d8e15721fda
+      internalID: 1423662463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afbf811fbb742049b40d05cdf71b153
+      internalID: 1097120848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_19
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7287cffab2fb43443b6829f09db8f952
+      internalID: -744387042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_20
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba9a327bd7159f4d9924f70eff97008
+      internalID: 749404276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_21
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a210c4716146224287ef04262e1ca70
+      internalID: 1176709984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_22
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e965a093a9bed5f45bda4c3daeac9250
+      internalID: 540595439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_23
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b997868892e1af345abad4bf26ef1d39
+      internalID: -40280707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_24
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9b771d850736a48b316a91cc901b9e
+      internalID: 503492349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_25
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab50d11f2169974083a43b3640510f8
+      internalID: 1349651000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_26
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 380
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1286aba1cfa68ff4d83176a28b4ad86f
+      internalID: 1813007848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7949b1717189a6419cff98407f4c10d
+      internalID: 1624355458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_28
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29707d9861e19745a74f5d6f84244eb
+      internalID: 412986343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_29
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d889a841daf78bd44a30ef63b31392a1
+      internalID: -1327904149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_30
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0465c825f478e1a41b93f4c88a30db47
+      internalID: 339632354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_31
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04a0317e8ebb9445930d06e98cfacd2
+      internalID: 122185850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_32
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d3ae23dcebf2c42b3d00b53625f0f2
+      internalID: 201703047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_33
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979d31c5fda3aa649b69e10fad875443
+      internalID: 1318323285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_34
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd6bd16975604d4aa26525fd958455a
+      internalID: 242476422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_35
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 285
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adc1b7efe6ff9a4e8bbf11180f08116
+      internalID: 1760133423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05477ba4112eba4b8a397f1a83abba5
+      internalID: -1917235173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_37
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3859c695e06e78d4599c08ae5b49c267
+      internalID: 758779061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_38
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068c5041056f6f44686eb7ffc2466f07
+      internalID: -521781550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_39
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fb80cf4a9ac814c815a275b36722fc
+      internalID: 1995127645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_40
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd701862a9fe23f4a8052aae0c8c7697
+      internalID: 1484169459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_41
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d02c55e2b086e4ab79e409ae49992a
+      internalID: 2002522010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_42
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2411050c0a317aa43a20dc3112f97edf
+      internalID: -1906448260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_43
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba7933664778cd4f9720f8c9265bb93
+      internalID: 191534231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_44
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 190
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cdce40eca1a9d4cb7b7b3893c2eb8b
+      internalID: -1356537241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5219dff0eaf35e844a040f0e23e81eac
+      internalID: -1139724599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_46
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84d7113b683dc445bc204fa4ba77b4c
+      internalID: -903704425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_47
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f9b485fa2ecab4f972b27b52e08e66
+      internalID: -1005532555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_48
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201f34c8e9ee745438f5630b979d8f7a
+      internalID: 182974258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_49
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedf4775713c7b04d972146a828072a3
+      internalID: -1402429747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_50
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b9c8c5c4b454d479a6f211563e5381
+      internalID: 846915069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_51
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0843eee80ca2e4aada15f85642021a
+      internalID: 1428120258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_52
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a28c30a54dcd8148b8fc6bec7b492bf
+      internalID: -73805609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_53
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 95
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda646004f82cdb46b68cdf605546818
+      internalID: 1167226534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a12918fe90ee2d4d9f6ef743d6dc91c
+      internalID: 1216526950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_55
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f6006c3d50da74287c627777f4913d
+      internalID: 1054737987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_56
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 0
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c963664d7331334e987e5dfe605387d
+      internalID: -1090268604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_57
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8258d1121cb656f4cafb5b4287717d4b
+      internalID: 1337511357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_58
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c14b595ed92fc48a2a3b78d4997dcc
+      internalID: -1970888546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFire_484x95_59
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 0
+        width: 484
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfe887b853ba06498bc8af1b869a63c
+      internalID: -1556988039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GhostFire_484x95_5: -1029286567
+      GhostFire_484x95_16: 82760042
+      GhostFire_484x95_18: 1097120848
+      GhostFire_484x95_1: 143493225
+      GhostFire_484x95_15: -275367427
+      GhostFire_484x95_54: 1216526950
+      GhostFire_484x95_39: 1995127645
+      GhostFire_484x95_30: 339632354
+      GhostFire_484x95_59: -1556988039
+      GhostFire_484x95_22: 540595439
+      GhostFire_484x95_44: -1356537241
+      GhostFire_484x95_20: 749404276
+      GhostFire_484x95_14: -811801241
+      GhostFire_484x95_43: 191534231
+      GhostFire_484x95_2: -860624592
+      GhostFire_484x95_4: 823421416
+      GhostFire_484x95_31: 122185850
+      GhostFire_484x95_42: -1906448260
+      GhostFire_484x95_55: 1054737987
+      GhostFire_484x95_29: -1327904149
+      GhostFire_484x95_38: -521781550
+      GhostFire_484x95_49: -1402429747
+      GhostFire_484x95_48: 182974258
+      GhostFire_484x95_8: -2052265578
+      GhostFire_484x95_12: 1766638447
+      GhostFire_484x95_36: -1917235173
+      GhostFire_484x95_53: 1167226534
+      GhostFire_484x95_56: -1090268604
+      GhostFire_484x95_28: 412986343
+      GhostFire_484x95_10: 1644231374
+      GhostFire_484x95_27: 1624355458
+      GhostFire_484x95_32: 201703047
+      GhostFire_484x95_45: -1139724599
+      GhostFire_484x95_57: 1337511357
+      GhostFire_484x95_24: 503492349
+      GhostFire_484x95_13: -364928932
+      GhostFire_484x95_51: 1428120258
+      GhostFire_484x95_7: -9544637
+      GhostFire_484x95_21: 1176709984
+      GhostFire_484x95_41: 2002522010
+      GhostFire_484x95_23: -40280707
+      GhostFire_484x95_17: 1423662463
+      GhostFire_484x95_25: 1349651000
+      GhostFire_484x95_40: 1484169459
+      GhostFire_484x95_46: -903704425
+      GhostFire_484x95_11: -1263610823
+      GhostFire_484x95_52: -73805609
+      GhostFire_484x95_3: -733674858
+      GhostFire_484x95_35: 1760133423
+      GhostFire_484x95_37: 758779061
+      GhostFire_484x95_26: 1813007848
+      GhostFire_484x95_50: 846915069
+      GhostFire_484x95_6: -1148322041
+      GhostFire_484x95_9: -2066802288
+      GhostFire_484x95_19: -744387042
+      GhostFire_484x95_47: -1005532555
+      GhostFire_484x95_0: 715679737
+      GhostFire_484x95_33: 1318323285
+      GhostFire_484x95_34: 242476422
+      GhostFire_484x95_58: -1970888546
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

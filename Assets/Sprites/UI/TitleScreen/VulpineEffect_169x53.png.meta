@@ -1,0 +1,2775 @@
+fileFormatVersion: 2
+guid: dc1055c425ecec149931739bd1453dd3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9344e40bab5f5ca4dad384afe5f1d37e
+      internalID: 292549944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02b4b79f8f0f514897bac2a6fe14af7
+      internalID: 2094943627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ffdb47f8e05e644aabb7fcbd2bd848
+      internalID: 1981749978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_3
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a7e318841c584a91526a2a45bc6e6
+      internalID: -1120741990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be241afa19544b4e8c5932275da3ace
+      internalID: 1145783697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_5
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a8f16a828b20a409615ad21ecdc566
+      internalID: -411250703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_6
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1ef6677b52f034e86ca29eafc962cb
+      internalID: 1565609408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_7
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcb494dd6a47a04b90ecd442fb0771d
+      internalID: -209640774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_8
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86deae3600df21b4888c984c2423a5e9
+      internalID: -2146817566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_9
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6493e8a6b4f5b4cb9a6ad06d5eb87b
+      internalID: -1206594734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_10
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af46c524fdc67a342ad18127c120d437
+      internalID: 748812339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_11
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 477
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37af3ea608aa5b84eb426ce9db7365fe
+      internalID: 1624355564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80fba9e92c7d8a4f8fcc788e069fd07
+      internalID: 785999623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2652f83930afbca4aaf2eaabd0c825cd
+      internalID: -1756235570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22793cab32cca484e97f6e763bf7e01e
+      internalID: -1871596244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_15
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8454eef7266f6dd47bad05293d0cc586
+      internalID: -855051230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_16
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210bb60b728dfd3489820b98a9ddce21
+      internalID: -1252882777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_17
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99916cd5e094db645802f7eb118cf1e4
+      internalID: -1966016429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_18
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f20a1ccf0e3d04eaed92de4c00721a
+      internalID: 265044615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_19
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b0f586f2235614a989010eb4265c1c
+      internalID: -1107230382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_20
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebc45ca893426a44a0debafa6eb2faf
+      internalID: -656757445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_21
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c590c9d0c4f27b747bb49f14da2d6d6f
+      internalID: -8574010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_22
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e64f7fbfae69f419de58743845c339
+      internalID: 240980718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_23
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 424
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6f22c2f5d4f7248803d5cf15207825
+      internalID: 1421735495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5e91992347a1d4ba0d7188c14369b3
+      internalID: 2073994569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d062fb2f3005846962f496a0df72d0
+      internalID: -2081410762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_26
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ab30bb99db70b4a99229287b8d9627
+      internalID: 1215234354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_27
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8c0f190662ed645a7f4c1983c40fa9
+      internalID: 1543537222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_28
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692090b86a89f1a45b8208e3b5416b9d
+      internalID: -598753966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_29
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13ea74952f7ea9419588e5778610c6a
+      internalID: -892903522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_30
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cb789a5b344c94a801b440dcdefd4f
+      internalID: -362056844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_31
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597839fceffa9df41be8e55d6ad77ff4
+      internalID: -171118260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_32
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf7396575623784780fc619d2c5b7ad
+      internalID: -395990800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_33
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02809b04a5685d948b5beae56c9acb1e
+      internalID: -1009123516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_34
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37887f8ccab4d6240af208b201e37542
+      internalID: -539975293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_35
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 371
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db128a3cef3f9054aa7b08ebc8678250
+      internalID: 1729315409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3340da9f650ca8b4e9316b96c67e0922
+      internalID: 927670235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_37
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591d1476473944f49aacc551fb5a79bf
+      internalID: -275803945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_38
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a1186b4facbc34d8ad3dea44c9a01f
+      internalID: 1523439818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_39
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88978d65d1b2e4749beea3a049a67bcf
+      internalID: -874033604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_40
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d999e7305d50874594de22816beb845
+      internalID: 2066924826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_41
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829af77fcdc77a34b94e222ffe099186
+      internalID: 1708263100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_42
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ad8508fff9d92459921540ad34711b
+      internalID: -1383377913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_43
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c21e80871898954a9d24431ba540cce
+      internalID: 542144210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_44
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec9328b783e79b4e97038b82f919a8f
+      internalID: -1919882324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_45
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bbb522131b3d34a9f44df508f5b91a
+      internalID: -117415833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_46
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0b8360c7f02a74eb20297bbf9a1578
+      internalID: -2042138352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_47
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 318
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fb7822c4359b143b97ffe4af68180c
+      internalID: 1887037988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec773c0099765ed47b277b10941aa03f
+      internalID: -778668723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_49
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee33d6947387994e87e6307b642652d
+      internalID: -1537263511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_50
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cc7310f64b2184f8b8d360656e70b1
+      internalID: -912946116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_51
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f859ab4868f7ba749a301474ff5024bc
+      internalID: 1318409847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_52
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d43ec8585c37f34db9ddcfab104cc6d
+      internalID: 1611121996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_53
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3292636eb27d2448a70a1c7621fb13
+      internalID: 1335118283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_54
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e875c344849a44593668878f388053
+      internalID: 642291496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_55
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903821adc9bf34d4d97e23cd1a75ab5a
+      internalID: -977953271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_56
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e88f7781c5b9e46b9e8cbc48ee3422
+      internalID: -1391171587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_57
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a02f5e0aa1d35408d2e66e2f56ac93
+      internalID: -802843057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_58
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949d3dfb02378144badd4bf1aac95c24
+      internalID: -1095665320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_59
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 265
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d962ee65ef27b942a7a09022e7ec401
+      internalID: 909858813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e912555994977742844f8a7425635fa
+      internalID: -1212092528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_61
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96728313944677741abce15dd00daa32
+      internalID: 884105316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_62
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c36e12a707aa5640a03312b1ee6dced
+      internalID: 1145977463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_63
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cd01ef395342f42a11beb16850ce22
+      internalID: 169697964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_64
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f05e15fb2eed24b8fd7bc4fb6c517f
+      internalID: 767724241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_65
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01175a7f01fd89e42b47e10595ab3583
+      internalID: -1047348845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_66
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdd64e4b2a097c409f6c5585708c064
+      internalID: 1099750209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_67
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08726c2d08a42a44acce8b82b7619a2
+      internalID: 727284745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_68
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad55d3ad20dc5e6419f204e8a150a44a
+      internalID: 1669067991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_69
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2395ab44654ad4889b48793370c73e
+      internalID: 124335408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_70
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90d29835d0011e449cb4761f3a397b9
+      internalID: 2125384813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_71
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 212
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22b0419ec3e1574080db67570df11d8
+      internalID: 660973106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bb88f7a6ace264286e6de5f2b03835
+      internalID: -249011276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_73
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53ae3b6af053dc4da89d53cb8664ae6
+      internalID: -1620456278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3724662c0f23cdc4dbc0daccd95230d3
+      internalID: -575380205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_75
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cb7b5e73cca0a49b0f0af83cae35f9
+      internalID: 1124797670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_76
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5753a07467c6cc04d91e09a0bbc4c98d
+      internalID: 1223276853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_77
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d5683a7d6a34348aa6f24a84c11203
+      internalID: 1358750421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_78
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5131d24a0e5f894faaedee291630fc6
+      internalID: 1792193876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_79
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc2716ab37e92f4b9ea4f8fb1b4557f
+      internalID: 1583869666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_80
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd793108597fe3142a7356a73be9a081
+      internalID: -1930217841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_81
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f68c8c3b3d5894a985fd012158319a
+      internalID: 2036540257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_82
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8718efdeef7da48bbc451bd670762b
+      internalID: 1748221097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_83
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 159
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62b23a753838cd4cb98caaf659b6d73
+      internalID: -852123284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3c5077253800b4f9570b7b8494a0ec
+      internalID: 273726754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_85
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae71477f50dc194383c5fc3181a294c
+      internalID: 1271856436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_86
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17328d360217e14e882b3cd33362a22
+      internalID: 1731398716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_87
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f125e762f61264d4e9390ea08fd4ee12
+      internalID: 661851218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_88
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb050d030a28c848a1739d82011622f
+      internalID: -1115703132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_89
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a626a3e65ff3e49b3c0f9fbf4cf47b
+      internalID: 445088016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_90
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f664fae78f1be6e44908dd47ddfcdf58
+      internalID: 581092562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_91
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c021b9e3173f1f44a1c27c0a3583d76
+      internalID: 889989350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_92
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac6736f66c4f0a4b862dfad18f662cd
+      internalID: -1710530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_93
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa75aee0790ad204cb51d041cec3596f
+      internalID: -1843621051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_94
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d3c4c6248a8a84fb1905aa52f16d41
+      internalID: 307340863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_95
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 106
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37fb17c26bfd254fb8e166bfd8e5d1e
+      internalID: -490979568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79354e899f34f949b18b4fff3e81ca7
+      internalID: 1787724193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_97
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38391f46b4afbfa44a2173765defe1eb
+      internalID: 720283949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_98
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ca3794a0a2580449b514435b309a76
+      internalID: 321733986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_99
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab9c995139dca4d9d65c657bee61bb
+      internalID: -1287914000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_100
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eed7ce14d22cfc42a6ff7154b341404
+      internalID: -409578587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_101
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b907f26001637014da3783a210387ce6
+      internalID: -551635625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_102
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d4f6b0e2807d4a8fbfcef89b2a86e
+      internalID: -1588334263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_103
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5554dc86dad9c4ea96b1eb6a4f3467
+      internalID: 256278061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_104
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb83988469637349be41e0124e8af40
+      internalID: -1598312317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_105
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472480258e524474aa22326a98744951
+      internalID: 1861839927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_106
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af74530032d52da4993d385e0518abb1
+      internalID: 1101884452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_107
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 53
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d1f2889b5cf1f4ca0c90954bf8419a
+      internalID: 1744472083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e453568f54fe7f84f966a7296d19a8c1
+      internalID: 140123326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_109
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2eaa189cfd7ff49ad8ce9418f4d159
+      internalID: -1751337138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_110
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67678902c4d8c3b409887cd325b9a23f
+      internalID: -1999949696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_111
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3020771a6efec1443b0b483783105383
+      internalID: 448831838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_112
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effea39494c7915498819bab3979da8b
+      internalID: 1265422961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_113
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e65933fcfd0114bbdced6bb4388948
+      internalID: 1605398323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_114
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61632e02a46f7254e8ee4ed2eadb93d5
+      internalID: 736334572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_115
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3863808671bda4b9f633ec270ed3c4
+      internalID: -551612034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_116
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c4f6312e80d4a44a3ff312f0933264
+      internalID: 138276694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_117
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29ec820a982a72458f187ad428b51a2
+      internalID: 1885888843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_118
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85f8af2afa61824f886dace6c4a1159
+      internalID: 1082690539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VulpineEffect_169x53_119
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 0
+        width: 169
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071d68db72858334c9efb7525ff4cd14
+      internalID: -810356162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VulpineEffect_169x53_19: -1107230382
+      VulpineEffect_169x53_27: 1543537222
+      VulpineEffect_169x53_85: 1271856436
+      VulpineEffect_169x53_117: 1885888843
+      VulpineEffect_169x53_81: 2036540257
+      VulpineEffect_169x53_100: -409578587
+      VulpineEffect_169x53_22: 240980718
+      VulpineEffect_169x53_91: 889989350
+      VulpineEffect_169x53_8: -2146817566
+      VulpineEffect_169x53_112: 1265422961
+      VulpineEffect_169x53_75: 1124797670
+      VulpineEffect_169x53_1: 2094943627
+      VulpineEffect_169x53_18: 265044615
+      VulpineEffect_169x53_66: 1099750209
+      VulpineEffect_169x53_97: 720283949
+      VulpineEffect_169x53_32: -395990800
+      VulpineEffect_169x53_90: 581092562
+      VulpineEffect_169x53_107: 1744472083
+      VulpineEffect_169x53_6: 1565609408
+      VulpineEffect_169x53_24: 2073994569
+      VulpineEffect_169x53_54: 642291496
+      VulpineEffect_169x53_3: -1120741990
+      VulpineEffect_169x53_93: -1843621051
+      VulpineEffect_169x53_105: 1861839927
+      VulpineEffect_169x53_59: 909858813
+      VulpineEffect_169x53_109: -1751337138
+      VulpineEffect_169x53_26: 1215234354
+      VulpineEffect_169x53_58: -1095665320
+      VulpineEffect_169x53_16: -1252882777
+      VulpineEffect_169x53_72: -249011276
+      VulpineEffect_169x53_86: 1731398716
+      VulpineEffect_169x53_62: 1145977463
+      VulpineEffect_169x53_15: -855051230
+      VulpineEffect_169x53_30: -362056844
+      VulpineEffect_169x53_36: 927670235
+      VulpineEffect_169x53_69: 124335408
+      VulpineEffect_169x53_94: 307340863
+      VulpineEffect_169x53_14: -1871596244
+      VulpineEffect_169x53_37: -275803945
+      VulpineEffect_169x53_74: -575380205
+      VulpineEffect_169x53_57: -802843057
+      VulpineEffect_169x53_84: 273726754
+      VulpineEffect_169x53_110: -1999949696
+      VulpineEffect_169x53_52: 1611121996
+      VulpineEffect_169x53_13: -1756235570
+      VulpineEffect_169x53_25: -2081410762
+      VulpineEffect_169x53_113: 1605398323
+      VulpineEffect_169x53_23: 1421735495
+      VulpineEffect_169x53_70: 2125384813
+      VulpineEffect_169x53_102: -1588334263
+      VulpineEffect_169x53_101: -551635625
+      VulpineEffect_169x53_53: 1335118283
+      VulpineEffect_169x53_43: 542144210
+      VulpineEffect_169x53_63: 169697964
+      VulpineEffect_169x53_40: 2066924826
+      VulpineEffect_169x53_60: -1212092528
+      VulpineEffect_169x53_77: 1358750421
+      VulpineEffect_169x53_103: 256278061
+      VulpineEffect_169x53_5: -411250703
+      VulpineEffect_169x53_64: 767724241
+      VulpineEffect_169x53_29: -892903522
+      VulpineEffect_169x53_56: -1391171587
+      VulpineEffect_169x53_116: 138276694
+      VulpineEffect_169x53_7: -209640774
+      VulpineEffect_169x53_17: -1966016429
+      VulpineEffect_169x53_114: 736334572
+      VulpineEffect_169x53_48: -778668723
+      VulpineEffect_169x53_61: 884105316
+      VulpineEffect_169x53_83: -852123284
+      VulpineEffect_169x53_34: -539975293
+      VulpineEffect_169x53_44: -1919882324
+      VulpineEffect_169x53_11: 1624355564
+      VulpineEffect_169x53_39: -874033604
+      VulpineEffect_169x53_104: -1598312317
+      VulpineEffect_169x53_45: -117415833
+      VulpineEffect_169x53_108: 140123326
+      VulpineEffect_169x53_118: 1082690539
+      VulpineEffect_169x53_68: 1669067991
+      VulpineEffect_169x53_78: 1792193876
+      VulpineEffect_169x53_33: -1009123516
+      VulpineEffect_169x53_51: 1318409847
+      VulpineEffect_169x53_119: -810356162
+      VulpineEffect_169x53_55: -977953271
+      VulpineEffect_169x53_65: -1047348845
+      VulpineEffect_169x53_47: 1887037988
+      VulpineEffect_169x53_95: -490979568
+      VulpineEffect_169x53_96: 1787724193
+      VulpineEffect_169x53_31: -171118260
+      VulpineEffect_169x53_20: -656757445
+      VulpineEffect_169x53_10: 748812339
+      VulpineEffect_169x53_67: 727284745
+      VulpineEffect_169x53_35: 1729315409
+      VulpineEffect_169x53_98: 321733986
+      VulpineEffect_169x53_21: -8574010
+      VulpineEffect_169x53_41: 1708263100
+      VulpineEffect_169x53_2: 1981749978
+      VulpineEffect_169x53_89: 445088016
+      VulpineEffect_169x53_46: -2042138352
+      VulpineEffect_169x53_115: -551612034
+      VulpineEffect_169x53_9: -1206594734
+      VulpineEffect_169x53_49: -1537263511
+      VulpineEffect_169x53_71: 660973106
+      VulpineEffect_169x53_111: 448831838
+      VulpineEffect_169x53_92: -1710530
+      VulpineEffect_169x53_73: -1620456278
+      VulpineEffect_169x53_88: -1115703132
+      VulpineEffect_169x53_76: 1223276853
+      VulpineEffect_169x53_0: 292549944
+      VulpineEffect_169x53_106: 1101884452
+      VulpineEffect_169x53_38: 1523439818
+      VulpineEffect_169x53_80: -1930217841
+      VulpineEffect_169x53_79: 1583869666
+      VulpineEffect_169x53_50: -912946116
+      VulpineEffect_169x53_28: -598753966
+      VulpineEffect_169x53_4: 1145783697
+      VulpineEffect_169x53_12: 785999623
+      VulpineEffect_169x53_99: -1287914000
+      VulpineEffect_169x53_82: 1748221097
+      VulpineEffect_169x53_87: 661851218
+      VulpineEffect_169x53_42: -1383377913
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
