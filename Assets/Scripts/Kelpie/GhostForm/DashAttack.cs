@@ -35,6 +35,7 @@ public class DashAttack : BaseGameObject
     {
         public Collider2D Collider;
         public Dasheable Target;
+        public Vector2 Speed;
     }
 
     private IEventPublisher<AbilityEvents, OnDashEventHandler> _eventPublisher;
@@ -83,8 +84,11 @@ public class DashAttack : BaseGameObject
                 _eventPublisher.PublishEvent(AbilityEvents.OnDash, new OnDashEventHandler
                 {
                     Collider = target.Collider,
-                    Target = dasheable
+                    Target = dasheable,
+                    Speed = _player.PhysicsObject.LatestNonZeroSpeed,
                 });
+
+                IsDashing = false;
             }
 
             yield return TimeYields.WaitOneFrameX;
@@ -114,7 +118,7 @@ public class DashAttack : BaseGameObject
                 var move = _player.PhysicsObject.GetSpeedAccessor(latestDirection * DashSpeed)
                     .ToSpeed(Vector2.zero)
                     .Over(0.5f)
-                    .BreakIf(()=> _knockedBack || (!ComponentEnabled && IsDashing), false)
+                    .BreakIf(()=> _knockedBack || !ComponentEnabled || !IsDashing, false)
                     .Easing(EasingYields.EasingFunction.CubicEaseOut)
                     .UsingTimer(GameTimer)
                     .Build();
@@ -125,7 +129,7 @@ public class DashAttack : BaseGameObject
                     yield return _player.PhysicsObject.GetSpeedAccessor(-currentSpeed * 0.5f)
                         .ToSpeed(Vector2.zero)
                         .Over(0.2f)
-                        .BreakIf(() => (!ComponentEnabled && IsDashing), true)
+                        .BreakIf(() => !ComponentEnabled || !IsDashing, true)
                         .Easing(EasingYields.EasingFunction.CubicEaseOut)
                         .UsingTimer(GameTimer)
                         .Build();

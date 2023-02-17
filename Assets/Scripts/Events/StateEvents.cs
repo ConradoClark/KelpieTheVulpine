@@ -12,5 +12,6 @@ public enum StateEvents
     OnRevive,
     OnGhostForm,
     OnFoxForm,
-    OnInvincibilityFrames
+    OnInvincibilityFrames,
+    OnKnockBack,
 }

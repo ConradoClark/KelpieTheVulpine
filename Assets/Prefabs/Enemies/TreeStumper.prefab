@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 3287604551221229161}
   - component: {fileID: 1999658730}
   - component: {fileID: 1999658721}
+  - component: {fileID: 1999658731}
   m_Layer: 8
   m_Name: TreeStumper
   m_TagString: Untagged
@@ -81,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 96e62740bafb5424d82d520575903a7d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -216,6 +217,7 @@ MonoBehaviour:
   FlashColor: {r: 1, g: 1, b: 1, a: 1}
   FlashSpeed: 1
   Repeat: 0
+  BackToZero: 0
 --- !u!60 &1999658730
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -260,3 +262,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0cc9b633664f114eab12f55f022f3eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1999658731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3287604551221229155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf5870c8b253734796c66ec99d74ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinParticles: 4
+  MaxParticles: 4
+  GhostParticle: {fileID: 11400000, guid: 7f2373ac857774049840ad1cba7de593, type: 2}
+  Killable: {fileID: 3287604551221229142}

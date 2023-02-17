@@ -4,7 +4,9 @@ PluginImporter:
   externalObjects: {}
   serializedVersion: 2
   iconMap: {}
-  executionOrder: {}
+  executionOrder:
+    Licht.Unity.CharacterControllers.LichtPlatformerJumpController: 8
+    Licht.Unity.Effects.EffectsManager: -103
   defineConstraints: []
   isPreloaded: 0
   isOverridable: 0

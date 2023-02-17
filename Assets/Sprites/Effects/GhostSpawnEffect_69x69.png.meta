@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 65a0a61a23ae77744b82996be5f1172b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9993e0587e626fd458aaa345fd4cc56e
+      internalID: 115432940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3710ce94727de64b9c04ea7fc3e160d
+      internalID: 1816062283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e94b76e4fc71a45bf92414f8967818
+      internalID: -102549797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340c26f7531276643b5611d04aeafde6
+      internalID: -570291615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162d4875a1bbd3a4e9389590da1087f3
+      internalID: 237045052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93eb1a3933753db45b6cf8c6a60be824
+      internalID: -1433688059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 345
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654b80ec47d3e554b85c6d1dc5e7680e
+      internalID: -965511095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c623962c4e1082048bce94f9ee7dc593
+      internalID: 1993219310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcab039c6dcc41468873730e7a6128b
+      internalID: 1944598953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_9
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70621a2879315594e9201c9c1d50ef21
+      internalID: 567153035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee0dbf9f3e3ec94cb69b902d5ae6566
+      internalID: -1244251906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d510a33282bc1c4fb23cd0322605c55
+      internalID: 608124245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_12
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b48c61db91e2014db4941445cb3f2b2
+      internalID: 1831379340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_13
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 276
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb57d40d64fe40649839a2ed8702f261
+      internalID: -295442131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1757a85285f501346ab95699c3b3a4a0
+      internalID: -462604825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea6a3a371497fa4d965e95f1c741a41
+      internalID: 1349600991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e45c39023bda40b25195529cc93fd
+      internalID: 1947247788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ee5b750ce50434ab0bd2581e0f7479
+      internalID: 1568156073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd67777740f6954b8297133de353b8c
+      internalID: 1086443109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b854d327c3273fb47a2d84d130a84624
+      internalID: 182411635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 207
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a48b8dab130ba4a83c417e65b9f8be
+      internalID: 1807847394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85ed00e0dac327449b14ebc5cd990ba
+      internalID: 423096258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0303727b12cd274e8f172902f99c675
+      internalID: -31910202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_23
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9b978a5020b1944b80283c3d255cec
+      internalID: -1986416050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_24
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d22af3b548c9cb44916815bf3119f22
+      internalID: -148450055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee0159d3fdb200449c0fc4266c74a7a
+      internalID: -904467231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_26
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709dfd00e71c9044087f31acee05724a
+      internalID: 2093801603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_27
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 138
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fde5310cee6224aa401829dc8fef76
+      internalID: -935163657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8face74941240949a7ea77729c24d42
+      internalID: -2120418521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff0e510b0c65c24db2b5bc202a9ed3b
+      internalID: -313649215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27596186064368149a7bf0ab564af1b3
+      internalID: 1948856426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4ee871073659a40ad36031a4b73e85
+      internalID: 1885003371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f0aabde4e1b164abca62c73d11af98
+      internalID: -1052519366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_33
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d3d15962d523647b0f87b7d9ecef0b
+      internalID: 1948168598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_34
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d845a62da6d2a4fa97928f66046352
+      internalID: -1083716310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25602463a590c194c8cb35fcd87470b5
+      internalID: -153480831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257e2230832ccb44fb59e3fa9deb74d0
+      internalID: -1442951416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78398acbecf21be4b95e4ca46fdbf32e
+      internalID: 771149044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca0bb32df7bfcb4bbfbc7c3a1773082
+      internalID: -762373109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostSpawnEffect_69x69_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73abebc80ce532d4e9fefdc2dce41d1d
+      internalID: -740704368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GhostSpawnEffect_69x69_11: 608124245
+      GhostSpawnEffect_69x69_13: -295442131
+      GhostSpawnEffect_69x69_39: -740704368
+      GhostSpawnEffect_69x69_29: -313649215
+      GhostSpawnEffect_69x69_12: 1831379340
+      GhostSpawnEffect_69x69_36: -1442951416
+      GhostSpawnEffect_69x69_24: -148450055
+      GhostSpawnEffect_69x69_25: -904467231
+      GhostSpawnEffect_69x69_27: -935163657
+      GhostSpawnEffect_69x69_5: -1433688059
+      GhostSpawnEffect_69x69_19: 182411635
+      GhostSpawnEffect_69x69_35: -153480831
+      GhostSpawnEffect_69x69_17: 1568156073
+      GhostSpawnEffect_69x69_20: 1807847394
+      GhostSpawnEffect_69x69_21: 423096258
+      GhostSpawnEffect_69x69_3: -570291615
+      GhostSpawnEffect_69x69_23: -1986416050
+      GhostSpawnEffect_69x69_26: 2093801603
+      GhostSpawnEffect_69x69_1: 1816062283
+      GhostSpawnEffect_69x69_2: -102549797
+      GhostSpawnEffect_69x69_14: -462604825
+      GhostSpawnEffect_69x69_16: 1947247788
+      GhostSpawnEffect_69x69_4: 237045052
+      GhostSpawnEffect_69x69_28: -2120418521
+      GhostSpawnEffect_69x69_18: 1086443109
+      GhostSpawnEffect_69x69_33: 1948168598
+      GhostSpawnEffect_69x69_7: 1993219310
+      GhostSpawnEffect_69x69_0: 115432940
+      GhostSpawnEffect_69x69_8: 1944598953
+      GhostSpawnEffect_69x69_30: 1948856426
+      GhostSpawnEffect_69x69_37: 771149044
+      GhostSpawnEffect_69x69_34: -1083716310
+      GhostSpawnEffect_69x69_15: 1349600991
+      GhostSpawnEffect_69x69_32: -1052519366
+      GhostSpawnEffect_69x69_6: -965511095
+      GhostSpawnEffect_69x69_38: -762373109
+      GhostSpawnEffect_69x69_9: 567153035
+      GhostSpawnEffect_69x69_22: -31910202
+      GhostSpawnEffect_69x69_31: 1885003371
+      GhostSpawnEffect_69x69_10: -1244251906
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
