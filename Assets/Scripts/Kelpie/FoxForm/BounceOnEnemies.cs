@@ -50,8 +50,6 @@ public class BounceOnEnemies : BaseGameObject
             CollisionResult trigger = default;
             var conditions = _player.IsFox
                              && !_player.FoxForm.JumpController.IsJumping
-                             && _player.FoxForm.PhysicsObject.GetPhysicsTrigger(_player.FoxForm.JumpController
-                                 .GroundedTrigger)
                              && (trigger = _player.FoxForm.GroundCollider.Triggers.FirstOrDefault(t =>
                                  LayerToCheck.Contains(t.Collider.gameObject.layer))).TriggeredHit
                              && _physics.TryGetPhysicsObjectByCollider(trigger.Collider, out var physicsObject)

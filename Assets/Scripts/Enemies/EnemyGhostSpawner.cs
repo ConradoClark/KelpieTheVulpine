@@ -74,8 +74,11 @@ public class EnemyGhostSpawner : BaseGameObject
                     if (_effectPool.TryGetFromPool(out var effect))
                     {
                         effect.Component.transform.position = pos;
-                        yield return TimeYields.WaitSeconds(GameTimer, 1.2);
+                        yield return TimeYields.WaitSeconds(GameTimer, 1.2, breakCondition:
+                           () => _player.CurrentForm == Player.PlayerForms.Fox);
                     }
+
+                    if (_player.CurrentForm == Player.PlayerForms.Fox) break;
 
                     if (!_objectPoolManager.GetEffect(ghostToSpawn).TryGetFromPool(out var ghost)) continue;
 

@@ -574,6 +574,7 @@ GameObject:
   - component: {fileID: 5206373413599987683}
   - component: {fileID: 5206373413599987682}
   - component: {fileID: 5206373413599987681}
+  - component: {fileID: 1123073015497078604}
   m_Layer: 14
   m_Name: GhostObject
   m_TagString: Untagged
@@ -813,3 +814,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21aacc7137b632d40ad9a912256e8195, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1123073015497078604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5206373413599987477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf5870c8b253734796c66ec99d74ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinParticles: 1
+  MaxParticles: 2
+  GhostParticle: {fileID: 11400000, guid: 7f2373ac857774049840ad1cba7de593, type: 2}
+  Killable: {fileID: 5206373413599987694}
