@@ -8,6 +8,8 @@ using UnityEngine;
 
 public class Bounceable : MonoBehaviour
 {
+    public bool OverrideJumpHeight;
+    public float JumpHeight;
     private LichtPhysicsObject _physicsObject;
     private void Awake()
     {

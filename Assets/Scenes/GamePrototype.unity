@@ -2141,10 +2141,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1031306493}
     m_Modifications:
-    - target: {fileID: 6107002363434571379, guid: e727e15852c8ddd46a7ab98d79ea9e88, type: 3}
-      propertyPath: GhostFormDrainRate
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6107002363562035240, guid: e727e15852c8ddd46a7ab98d79ea9e88, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2330,10 +2326,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1104989874, guid: 2584ab4b56281e44dae20f3b9729d458, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8812313750171198552, guid: 2584ab4b56281e44dae20f3b9729d458, type: 3}
       propertyPath: m_Name
       value: UI

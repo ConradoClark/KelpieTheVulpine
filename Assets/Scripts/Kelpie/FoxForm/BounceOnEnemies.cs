@@ -62,7 +62,18 @@ public class BounceOnEnemies : BaseGameObject
                     Collider = trigger.Collider,
                     Target = target
                 });
-                yield return _player.FoxForm.JumpController.ExecuteJump(customParams: BounceParams).AsCoroutine();
+
+                var jumpParams = new LichtPlatformerJumpController.CustomJumpParams
+                {
+                    MinJumpDelay = BounceParams.MinJumpDelay,
+                    AccelerationTime = BounceParams.AccelerationTime,
+                    DecelerationTime = BounceParams.DecelerationTime,
+                    MovementStartEasing = BounceParams.MovementStartEasing,
+                    MovementEndEasing = BounceParams.MovementEndEasing,
+                    JumpSpeed = target.OverrideJumpHeight? target.JumpHeight : BounceParams.JumpSpeed
+                };
+
+                yield return _player.FoxForm.JumpController.ExecuteJump(customParams: jumpParams).AsCoroutine();
             }
             else yield return TimeYields.WaitOneFrameX;
         }

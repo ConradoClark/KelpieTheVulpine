@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LayerToCheck:
     serializedVersion: 2
-    m_Bits: 320
+    m_Bits: 33088
   BounceParams:
     JumpSpeed: 3
     AccelerationTime: 0

@@ -469,6 +469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404963368}
+  - component: {fileID: 404963369}
   m_Layer: 0
   m_Name: Menu
   m_TagString: Untagged
@@ -493,6 +494,27 @@ Transform:
   m_Father: {fileID: 332743062}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &404963369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404963367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1612220806, guid: 83d94a7502652014e8fb1a61a030c7a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Direction: 1
+  Cursor: {fileID: 0}
+  UIHorizontal: {fileID: 4345403338537908687, guid: 69062ba7c6f0824468b5a8e86ba626e3, type: 3}
+  UIVertical: {fileID: 4028125078206156701, guid: 69062ba7c6f0824468b5a8e86ba626e3, type: 3}
+  UIAccept: {fileID: 3457606959900909149, guid: 69062ba7c6f0824468b5a8e86ba626e3, type: 3}
+  UICancel: {fileID: 0}
+  CancelAction: {fileID: 0}
+  PlayerInput: {fileID: 0}
+  UseCursorPositionAsOffset: 0
 --- !u!1 &469537848
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,6 +828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 801304704}
   - component: {fileID: 801304705}
+  - component: {fileID: 801304706}
   m_Layer: 0
   m_Name: OptionsButton
   m_TagString: Untagged
@@ -870,7 +893,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f73bc3c5b5900ea4b9e9975103d27ffe, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -880,6 +903,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &801304706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801304703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb785f7895fa93b489b6d18311ccfa87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Selected: 0
+  Order: 2
+  MenuContext: {fileID: 404963369}
+  CursorPosition: {x: 0, y: 0}
+  Button: {fileID: 801304705}
+  UnselectedColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
 --- !u!1 &901436830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,6 +1733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1849604592}
   - component: {fileID: 1849604591}
+  - component: {fileID: 1849604593}
   m_Layer: 0
   m_Name: StartButton
   m_TagString: Untagged
@@ -1741,7 +1783,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f73bc3c5b5900ea4b9e9975103d27ffe, type: 3}
-  m_Color: {r: 0.8980393, g: 0.7490196, b: 0.7372549, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1766,6 +1808,25 @@ Transform:
   m_Father: {fileID: 404963368}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1849604593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849604590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdac3a95cb0e004b947ab6facf74ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Selected: 1
+  Order: 1
+  MenuContext: {fileID: 404963369}
+  CursorPosition: {x: 0, y: 0}
+  Button: {fileID: 1849604591}
+  UnselectedColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
+  Scene: GamePrototype
 --- !u!1 &1890638951
 GameObject:
   m_ObjectHideFlags: 0

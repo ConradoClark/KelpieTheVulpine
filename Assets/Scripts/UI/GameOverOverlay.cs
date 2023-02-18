@@ -9,14 +9,17 @@ using UnityEngine;
 public class GameOverOverlay : BaseGameObject
 {
     public SpriteRenderer SpriteRenderer;
+    public GameObject Menu;
 
     public void Show()
     {
         SpriteRenderer.enabled = true;
+        Menu.SetActive(true);
     }
 
     public void Hide()
     {
         SpriteRenderer.enabled = true;
+        Menu.SetActive(false);
     }
 }
