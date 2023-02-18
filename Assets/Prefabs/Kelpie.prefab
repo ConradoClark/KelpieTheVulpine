@@ -428,6 +428,55 @@ MonoBehaviour:
   TrailEffect: {fileID: 11400000, guid: e16d421f977da284e912448174574e2a, type: 2}
   DashEffect: {fileID: 1364440616}
   CollisionDetector: {fileID: 3470625463701838451}
+--- !u!1 &1149127880548146841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8485520046950173554}
+  - component: {fileID: 6894827489451127144}
+  m_Layer: 7
+  m_Name: DeathTint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8485520046950173554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149127880548146841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6107002363854362621}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6894827489451127144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149127880548146841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779b5a63d952de546a3d420f321a9a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteRenderer: {fileID: 6107002363854362622}
+  FlashColor: {r: 0.9490197, g: 0.3647059, b: 0.3647059, a: 1}
+  FlashSpeed: 0.1
+  Repeat: 5
+  BackToZero: 0
 --- !u!1 &1338683215820632233
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,6 +865,7 @@ GameObject:
   - component: {fileID: 6107002363434571380}
   - component: {fileID: 6107002363434571379}
   - component: {fileID: 6107002363434571378}
+  - component: {fileID: 4935552187180581533}
   m_Layer: 7
   m_Name: KelpieAsGhost
   m_TagString: Untagged
@@ -905,7 +955,7 @@ MonoBehaviour:
   BodyTrigger: {fileID: 1537531186}
   RebirthEffect: {fileID: 11400000, guid: 222ebf9439fa79849bd5f468b5af1974, type: 2}
   RebirthFlash: {fileID: 542127452}
-  GhostFormDrainRate: 0.1
+  GhostFormDrainRate: 0.05
 --- !u!114 &6107002363434571378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,6 +970,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MousePosition: {fileID: -1525378419021528618, guid: 69062ba7c6f0824468b5a8e86ba626e3, type: 3}
   MouseDelta: {fileID: 6749395842145623196, guid: 69062ba7c6f0824468b5a8e86ba626e3, type: 3}
+--- !u!114 &4935552187180581533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107002363434571383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46729354f8713414ab15c9c39349f8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathFlash: {fileID: 6894827489451127144}
+  DeathEffect: {fileID: 11400000, guid: 729a02638e1d75044a39ad0b505d6ed0, type: 2}
 --- !u!1 &6107002363562035241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,6 +1155,7 @@ Transform:
   m_Children:
   - {fileID: 6107002363229658271}
   - {fileID: 6107002364304528781}
+  - {fileID: 8485520046950173554}
   m_Father: {fileID: 6107002363434571382}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

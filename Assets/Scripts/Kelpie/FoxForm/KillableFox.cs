@@ -105,8 +105,8 @@ public class KillableFox : Killable
             .Position
             .ToPosition(Checkpoint.CurrentCheckpointPosition)
             .Over(Vector2.Distance(_ghost.transform.position,Checkpoint.CurrentCheckpointPosition) > 15f
-                ? 5 : 3)
-            .Easing(EasingYields.EasingFunction.ExponentialEaseIn)
+                ? 4 : 2.5f)
+            .Easing(EasingYields.EasingFunction.QuadraticEaseIn)
             .UsingTimer(GameTimer)
             .Build();
         _spawnSmoke = false;
