@@ -8,6 +8,8 @@ using Licht.Unity.Physics.CollisionDetection;
 
 public class LevelEndSign : BaseGameObject
 {
+    public ScriptIdentifier LevelIdentifier;
+    public GameProgress GameProgress;
     public Collectable Sign;
     private LevelCompleteOverlay _levelCompleteOverlay;
 
@@ -26,5 +28,6 @@ public class LevelEndSign : BaseGameObject
     private void Sign_OnPickup(Collectable obj)
     {
         _levelCompleteOverlay.Show();
+        GameProgress.CompleteLevel(LevelIdentifier.Name);
     }
 }

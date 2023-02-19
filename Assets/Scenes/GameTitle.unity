@@ -1826,7 +1826,7 @@ MonoBehaviour:
   CursorPosition: {x: 0, y: 0}
   Button: {fileID: 1849604591}
   UnselectedColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
-  Scene: GamePrototype
+  Scene: LevelSelect
 --- !u!1 &1890638951
 GameObject:
   m_ObjectHideFlags: 0
