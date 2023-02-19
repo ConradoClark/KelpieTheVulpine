@@ -710,6 +710,7 @@ MonoBehaviour:
   Actor: {fileID: 5206373411915880767}
   SceneObject: 1
   Killed: 0
+  DeathSound: {fileID: 8300000, guid: 65992240e1ec5864b8ae9e9ff5508446, type: 3}
   PoofEffect: {fileID: 11400000, guid: 96991ccf7a5a4e043bb4a6d3dcb3af51, type: 2}
   Animator: {fileID: 5206373413599987476}
   TintFlash: {fileID: 5206373413599987695}

@@ -8,5 +8,6 @@ using System.Threading.Tasks;
 public enum AbilityEvents
 {
     OnBounce,
-    OnDash
+    OnDash,
+    OnSpringBounce
 }

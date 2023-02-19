@@ -198,6 +198,7 @@ MonoBehaviour:
   Actor: {fileID: 3287604551221229155}
   SceneObject: 1
   Killed: 0
+  DeathSound: {fileID: 8300000, guid: 57263b5e1b77e9444bf447bb5dc83169, type: 3}
   PoofEffect: {fileID: 11400000, guid: 96991ccf7a5a4e043bb4a6d3dcb3af51, type: 2}
   Animator: {fileID: 0}
   TintFlash: {fileID: 3287604551221229161}
@@ -262,6 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0cc9b633664f114eab12f55f022f3eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OverrideJumpHeight: 0
+  JumpHeight: 0
 --- !u!114 &1999658731
 MonoBehaviour:
   m_ObjectHideFlags: 0

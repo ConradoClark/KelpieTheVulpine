@@ -12,7 +12,7 @@ public class Killable : EffectPoolable
     public bool SceneObject;
     public bool Killed;
     private IEventPublisher<StateEvents, Killable> _killEvent;
-
+    public AudioClip DeathSound;
     protected override void OnAwake()
     {
         base.OnAwake();
