@@ -10,6 +10,7 @@ using UnityEngine;
 
 public class Collectable : BaseGameObject
 {
+    public AudioClip SoundOnCollect;
     public bool CanPickupAsFox;
     public bool CanPickupAsGhost;
     public bool DeactivatesOnPickup;

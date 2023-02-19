@@ -8,6 +8,7 @@ using UnityEngine;
 
 public class Checkpoint : BaseGameObject
 {
+    public bool Default;
     public static Vector3 CurrentCheckpointPosition;
     public Vector3 Offset;
     protected IEventPublisher<CheckpointEvents, Checkpoint> EventPublisher;

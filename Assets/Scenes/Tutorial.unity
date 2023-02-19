@@ -14820,6 +14820,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 261003149, guid: 2584ab4b56281e44dae20f3b9729d458, type: 3}
+      propertyPath: Scene
+      value: Tutorial
+      objectReference: {fileID: 0}
     - target: {fileID: 8812313750171198552, guid: 2584ab4b56281e44dae20f3b9729d458, type: 3}
       propertyPath: m_Name
       value: UI
@@ -14885,7 +14889,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9117809729396991532, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
       propertyPath: m_Damping
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9117809729396991532, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
       propertyPath: m_MaxWindowSize

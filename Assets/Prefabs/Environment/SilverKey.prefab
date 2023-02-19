@@ -201,6 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaf0fae3a2ef82d429a6b6abb4424e7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoundOnCollect: {fileID: 8300000, guid: 70d2cffd9cea098458f8046e03eb8dbe, type: 3}
   CanPickupAsFox: 1
   CanPickupAsGhost: 0
   DeactivatesOnPickup: 1

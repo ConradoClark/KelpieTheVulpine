@@ -14,4 +14,6 @@ public enum StateEvents
     OnFoxForm,
     OnInvincibilityFrames,
     OnKnockBack,
+    OnUse,
+    OnSwitch
 }

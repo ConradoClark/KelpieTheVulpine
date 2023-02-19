@@ -3,6 +3,7 @@ using Licht.Unity.Objects;
 using System.Collections.Generic;
 using Licht.Impl.Events;
 using Licht.Impl.Orchestration;
+using Licht.Interfaces.Events;
 using Licht.Unity.Effects;
 using Licht.Unity.Extensions;
 using Licht.Unity.Pooling;
@@ -22,12 +23,14 @@ public class SwitchObject : BaseGameObject
 
     private PrefabPool _prefabPool; 
     private Collider2D _collider;
+    private IEventPublisher<StateEvents> _eventPublisher;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         _prefabPool = SceneObject<EffectsManager>.Instance().GetEffect(InteractionEffect);
         _collider = GetComponentInChildren<Collider2D>();
+        _eventPublisher = this.RegisterAsEventPublisher<StateEvents>();
     }
 
     protected override void OnEnable()
@@ -94,6 +97,7 @@ public class SwitchObject : BaseGameObject
             .Build();
 
         OnActivation?.Invoke();
+        _eventPublisher.PublishEvent(StateEvents.OnSwitch);
     }
 
     protected override void OnDisable()

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Licht.Impl.Events;
 using Licht.Impl.Orchestration;
+using Licht.Interfaces.Events;
 using Licht.Unity.Extensions;
 using Licht.Unity.Objects;
 using UnityEngine;
@@ -11,10 +13,12 @@ public class DestroyableByInventory : BaseGameObject
     public float TriggerDistance;
     public ScriptPrefab DestroyEffect;
     private Player _player;
+    private IEventPublisher<StateEvents, FollowingInventory> _eventPublisher;
     protected override void OnAwake()
     {
         base.OnAwake();
         _player = _player.FromScene();
+        _eventPublisher = this.RegisterAsEventPublisher<StateEvents, FollowingInventory>();
     }
 
     protected override void OnEnable()
@@ -42,6 +46,7 @@ public class DestroyableByInventory : BaseGameObject
 
                 DestroyEffect.TrySpawnEffect(transform.position, out _);
                 _player.RemoveFromInventory(item);
+                _eventPublisher.PublishEvent(StateEvents.OnUse, item);
                 item.EndEffect();
                 gameObject.SetActive(false);
 

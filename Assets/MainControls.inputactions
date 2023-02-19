@@ -362,7 +362,7 @@
                     "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Gamepad;SwitchPro",
+                    "groups": "Gamepad",
                     "action": "MoveVertically",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -373,7 +373,40 @@
                     "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Gamepad;SwitchPro",
+                    "groups": "Gamepad",
+                    "action": "MoveVertically",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "b7559f55-831c-4364-8657-6976f248c415",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveVertically",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5bd5d7cc-65d4-49b0-879b-3941f9357f34",
+                    "path": "<SwitchProControllerHID>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SwitchPro",
+                    "action": "MoveVertically",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "87f711e9-499f-44db-882d-2c47b94647cd",
+                    "path": "<SwitchProControllerHID>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "SwitchPro",
                     "action": "MoveVertically",
                     "isComposite": false,
                     "isPartOfComposite": true

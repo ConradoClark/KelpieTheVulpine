@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PadlockPines.unity
     guid: cde1c49ac32932b479bd0fffc50f72af
+  - enabled: 1
+    path: Assets/Scenes/CastleClimbers.unity
+    guid: 147c210c96f0be24eaf0936f8a4e0053
   m_configObjects: {}

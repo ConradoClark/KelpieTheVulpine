@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveOnInitialization: 0
+  SoundOnUse: {fileID: 8300000, guid: ccf8877e75c46ee4ab7437204f6907fd, type: 3}
   Identifier: 
   Triggered: 0
 --- !u!1 &5265864215973015075

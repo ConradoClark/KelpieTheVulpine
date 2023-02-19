@@ -10,6 +10,7 @@ using UnityEngine;
 
 public class FollowingInventory : EffectPoolable
 {
+    public AudioClip SoundOnUse;
     public string Identifier;
     public bool Triggered;
     private Vector2 _refSpeed;

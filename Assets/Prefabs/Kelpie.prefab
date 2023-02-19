@@ -441,6 +441,8 @@ MonoBehaviour:
   JumpingSound: {fileID: 8300000, guid: d820964f66468e34f996fe56ad6b643b, type: 3}
   SpringBounceSound: {fileID: 8300000, guid: 13bb0e8a7c7791444982bde6b80771e0, type: 3}
   CoinSound: {fileID: 8300000, guid: e29982e00fa338c408774d146edb777d, type: 3}
+  CheckpointSound: {fileID: 8300000, guid: 0a286d1000b790542bed6c5743fa9de4, type: 3}
+  SwitchSound: {fileID: 8300000, guid: 0252398c512fd9e40aae451c0e3cf4c4, type: 3}
 --- !u!1 &1364440613
 GameObject:
   m_ObjectHideFlags: 0
