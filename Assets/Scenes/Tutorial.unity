@@ -11999,10 +11999,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4502966902531394163, guid: 638f34bf2b3d91b4296a5009576e00cb, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 638f34bf2b3d91b4296a5009576e00cb, type: 3}
@@ -14824,14 +14820,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 260050853, guid: 2584ab4b56281e44dae20f3b9729d458, type: 3}
-      propertyPath: Scene
-      value: LevelSelect
-      objectReference: {fileID: 0}
-    - target: {fileID: 1470169894, guid: 2584ab4b56281e44dae20f3b9729d458, type: 3}
-      propertyPath: Scene
-      value: LevelSelect
-      objectReference: {fileID: 0}
     - target: {fileID: 8812313750171198552, guid: 2584ab4b56281e44dae20f3b9729d458, type: 3}
       propertyPath: m_Name
       value: UI
@@ -14971,18 +14959,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9117809730079229576, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
-      propertyPath: m_BiasY
-      value: 0.1500001
-      objectReference: {fileID: 0}
-    - target: {fileID: 9117809730079229576, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
-      propertyPath: m_ScreenY
-      value: 0.6425925
-      objectReference: {fileID: 0}
-    - target: {fileID: 9117809730079229576, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
-      propertyPath: m_DeadZoneHeight
-      value: 0.1425926
-      objectReference: {fileID: 0}
     - target: {fileID: 9117809731381850166, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.05032015
@@ -14990,10 +14966,6 @@ PrefabInstance:
     - target: {fileID: 9117809731381850166, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.33178
-      objectReference: {fileID: 0}
-    - target: {fileID: 9117809731381850167, guid: 3679ac603e8e4ba4983b2316161d3230, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 63959
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

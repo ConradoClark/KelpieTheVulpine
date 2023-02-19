@@ -18,13 +18,16 @@ public class SwitchObject : BaseGameObject
     public AnimationCurve ActivationAnim;
 
     public event Action OnActivation;
+    public event Action OnReset;
 
-    private PrefabPool _prefabPool;
+    private PrefabPool _prefabPool; 
+    private Collider2D _collider;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         _prefabPool = SceneObject<EffectsManager>.Instance().GetEffect(InteractionEffect);
+        _collider = GetComponentInChildren<Collider2D>();
     }
 
     protected override void OnEnable()
@@ -32,6 +35,27 @@ public class SwitchObject : BaseGameObject
         base.OnEnable();
         this.ObserveEvent<AbilityEvents, BounceOnEnemies.OnBounceEventHandler>(AbilityEvents.OnBounce, OnBounce);
         this.ObserveEvent<AbilityEvents, DashAttack.OnDashEventHandler>(AbilityEvents.OnDash, OnDash);
+    }
+
+    public void ResetSwitch()
+    {
+        if (_collider.enabled) return;
+
+        OnReset?.Invoke();
+        _collider.enabled = true;
+        Dasheable.enabled = true;
+        Bounceable.enabled = true;
+
+        var resetPos = SwitchSprite.transform.GetAccessor()
+            .LocalPosition
+            .Y
+            .Increase(0.185f)
+            .Over(0.5f)
+            .WithAnimationCurve(ActivationAnim)
+            .UsingTimer(GameTimer)
+            .Build();
+
+        DefaultMachinery.AddBasicMachine(resetPos);
     }
 
     private void OnDash(DashAttack.OnDashEventHandler obj)

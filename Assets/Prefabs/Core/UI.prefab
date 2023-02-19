@@ -244,7 +244,7 @@ MonoBehaviour:
   CursorPosition: {x: 0, y: 0}
   Button: {fileID: 260050854}
   UnselectedColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
-  Scene: GameTitle
+  Scene: LevelSelect
 --- !u!1 &261003147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2332,7 +2332,7 @@ MonoBehaviour:
   CursorPosition: {x: 0, y: 0}
   Button: {fileID: 1470169893}
   UnselectedColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
-  Scene: GameTitle
+  Scene: LevelSelect
 --- !u!1 &1572408661
 GameObject:
   m_ObjectHideFlags: 0

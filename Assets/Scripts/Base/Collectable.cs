@@ -50,6 +50,7 @@ public class Collectable : BaseGameObject
 
     private void OnChangeForm()
     {
+        if (this == null) return;
         AdjustVisibility();
     }
 
@@ -63,7 +64,11 @@ public class Collectable : BaseGameObject
                 OnPickup?.Invoke(this);
                 PickupEffect.TrySpawnEffect(transform.position, out _);
                 _eventPublisher.PublishEvent(PickupEvents.OnPickup, this);
-                if (DeactivatesOnPickup) gameObject.SetActive(false);
+                if (DeactivatesOnPickup)
+                {
+                    OnDisable();
+                    gameObject.SetActive(false);
+                }
             }
             yield return TimeYields.WaitOneFrameX;
         }

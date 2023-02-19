@@ -162,7 +162,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24403696}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -196,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 76fc68b4d47a275459a2d91139952cfd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff48dc0fd3eb53b48b6feaba0f61a856, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1344,9 +1344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 909228620}
   GameProgress: {fileID: 11400000, guid: e4fd4532395ddce42aad36cc63478614, type: 2}
-  Level: {fileID: 0}
-  LevelScene: Tutorial
-  Description: O Death, do you die? (Tutorial level)
+  Level: {fileID: 11400000, guid: 2444943c448159443be9846d658325f7, type: 2}
+  LevelScene: PadlockPines
+  Description: 1. Lock me away in Padlock Pines
   RequiredLevelsCompleted:
   - {fileID: 11400000, guid: 729f5f42c5252924f8774c254e308d23, type: 2}
   RequiredAchievements: []
@@ -1800,7 +1800,7 @@ MonoBehaviour:
   RequiredLevelsCompleted:
   - {fileID: 11400000, guid: 729f5f42c5252924f8774c254e308d23, type: 2}
   RequiredAchievements: []
-  LockedMessage: 
+  LockedMessage: Requires Level 1 Completed
   IconPosition: {x: 2, y: 0}
   TextColor: {r: 0.7058824, g: 0.8156863, b: 0.52156866, a: 1}
   Selected: 0
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   GameProgress: {fileID: 11400000, guid: e4fd4532395ddce42aad36cc63478614, type: 2}
   Level: {fileID: 11400000, guid: 729f5f42c5252924f8774c254e308d23, type: 2}
   LevelScene: Tutorial
-  Description: O Death, do you die? (Tutorial level)
+  Description: O Death, do you die? Tutorial level
   RequiredLevelsCompleted: []
   RequiredAchievements: []
   LockedMessage: 
@@ -2821,7 +2821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: O Death, do you die? (Tutorial level)
+  m_text: 1 Lock me away in Padlock Pines
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 880488c6b08c9a2439efbe144b252466, type: 2}
   m_sharedMaterial: {fileID: 1585302627516316803, guid: 880488c6b08c9a2439efbe144b252466, type: 2}

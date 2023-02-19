@@ -35,8 +35,13 @@ public class LevelSelector : BaseGameObject
     {
         base.OnEnable();
         DefaultMachinery.AddBasicMachine(Handle());
-        _currentPos = GameProgress.LastLevelPlayed == null ? Vector2Int.zero : Panels.FirstOrDefault(p => p.Level == GameProgress.LastLevelPlayed)?.IconPosition ??
-                      Vector2Int.zero;
+        _currentPos = GameProgress.LastLevelPlayed == null ? Vector2Int.zero : Panels.FirstOrDefault(p => p.Level == GameProgress.LastLevelPlayed)?.IconPosition ?? Vector2Int.zero;
+
+        var panel = Panels.FirstOrDefault(p => p.IconPosition == _currentPos);
+        if (panel == null) return;
+        transform.position = panel.transform.position;
+        panel.Selected = true;
+        panel.SetText();
     }
 
     private IEnumerable<IEnumerable<Action>> Handle()
